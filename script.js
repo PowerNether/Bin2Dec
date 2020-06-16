@@ -7,12 +7,11 @@ function bin2dec() {
                 document.getElementById('dec').value = dec;
             }
             else {
-                return alert("NO!");
-                return false;
+                return alert("Вводите только двоичное число (101)!");
             }
         });
     }
     else {
-        return alert("NO!");
+        return alert("Введите значение!");
     }
 }
